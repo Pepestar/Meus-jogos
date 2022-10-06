@@ -1,14 +1,25 @@
 
 
 footer {
-    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #010a1f 100%);
+    font-family: 'inter', sans-serif;
+    padding: 10px;
     padding-top: 10px;
     border-radius: 10px;
     border-left: 10px;
-    border-bottom: 100px; 
-    
-   
+    border-bottom: 10px; 
+    color: rgba(255, 255, 255, 0.733);
+    display: grid;
+       
 }
+
+.game {
+    background-color: #2A2634;
+    padding-top: 4px;
+    border-radius: 10px;
+    
+    
+}
+
 
 .game-mario {
     width: 96%;
@@ -18,6 +29,8 @@ footer {
     position: relative;
     overflow: hidden;
     background: linear-gradient(#87CEEB, #E0F6FF);
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #010a1f 100%);
+    padding-top: 4px;
    
 }
 
@@ -42,12 +55,13 @@ footer {
 
 .nuvens {
    position:absolute;
-    width: 550px;
+    width: 500px;
     animation: nuvens-animation 10s infinite linear;
 }
 
 footer {
     animation: fromFooter .5s backwards;
+    
     
 }
 
