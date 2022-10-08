@@ -37,13 +37,13 @@ footer {
 .pipe {
     position: absolute;
     bottom: 0;
-    width: 55px;
+    width: 60px;
     animation: pipe-animation 1.0s infinite linear;
 
 }
 
 .mario {
-    width: 130px;
+    width: 120px;
     position: absolute;
     bottom: 0;
     
@@ -64,6 +64,16 @@ footer {
     
     
 }
+
+button {
+  color:#372e2e;
+  border: 5px solid #372e2e;
+  border-radius: 2px;
+  animation-name:reset;
+  animation-duration:2s;
+  animation-fill-mode:forwards;
+}
+
 
 @keyframes pipe-animation {
     from {
